@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import ProductList from "@/components/product/ProductList";
 
-createApp(App).mount('#app')
+
+createApp(App).component('ProductList', ProductList).mount('#app')
+
